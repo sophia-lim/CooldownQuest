@@ -9,6 +9,9 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\Face</sprite>
+    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\spr_restart</sprite>
+    <sprite>sprites\spr_warp</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -16,13 +19,28 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\object2</object>
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_face</object>
+    <object>objects\obj_start</object>
+    <object>objects\obj_restart</object>
+    <object>objects\obj_warp</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_lvl01_01</room>
+    <room>rooms\rm_lvl01_02</room>
+    <room>rooms\rm_lvl01_03</room>
+    <room>rooms\rm_lvl02_01</room>
+    <room>rooms\rm_lvl02_02</room>
+    <room>rooms\rm_lvl02_03</room>
+    <room>rooms\rm_lvl03_01</room>
+    <room>rooms\rm_lvl03_02</room>
+    <room>rooms\rm_lvl03_03</room>
+    <room>rooms\rm_lvl04_01</room>
+    <room>rooms\rm_lvl04_02</room>
+    <room>rooms\rm_lvl04_03</room>
     <room>rooms\room0</room>
+    <room>rooms\rm_menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -11,10 +11,10 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\Face</sprite>
-    <sprite>sprites\sprite3</sprite>
     <sprite>sprites\spr_restart</sprite>
     <sprite>sprites\spr_warp</sprite>
     <sprite>sprites\spr_spikes</sprite>
+    <sprite>sprites\spr_enemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -29,8 +29,10 @@
     <object>objects\obj_restart</object>
     <object>objects\obj_warp</object>
     <object>objects\obj_spikes</object>
+    <object>objects\obj_enemy</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_lvl04_03</room>
     <room>rooms\rm_lvl01_01</room>
     <room>rooms\rm_lvl01_02</room>
     <room>rooms\rm_lvl01_03</room>
@@ -42,7 +44,6 @@
     <room>rooms\rm_lvl03_03</room>
     <room>rooms\rm_lvl04_01</room>
     <room>rooms\rm_lvl04_02</room>
-    <room>rooms\rm_lvl04_03</room>
     <room>rooms\room0</room>
     <room>rooms\rm_menu</room>
   </rooms>

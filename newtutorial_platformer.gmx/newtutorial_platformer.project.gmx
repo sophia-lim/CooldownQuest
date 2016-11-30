@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound_bgm</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_player</sprite>
@@ -12,6 +14,7 @@
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\spr_restart</sprite>
     <sprite>sprites\spr_warp</sprite>
+    <sprite>sprites\spr_spikes</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -25,6 +28,7 @@
     <object>objects\obj_start</object>
     <object>objects\obj_restart</object>
     <object>objects\obj_warp</object>
+    <object>objects\obj_spikes</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lvl01_01</room>

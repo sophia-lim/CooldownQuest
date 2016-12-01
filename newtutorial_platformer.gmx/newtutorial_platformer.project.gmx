@@ -15,6 +15,18 @@
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_marker</sprite>
+    <sprite>sprites\spr_jumpicon</sprite>
+    <sprite>sprites\spr_nojumpicon</sprite>
+    <sprite>sprites\spr_noswordicon</sprite>
+    <sprite>sprites\spr_player_attack</sprite>
+    <sprite>sprites\spr_hitbox</sprite>
+    <sprite>sprites\spr_player_crouch</sprite>
+    <sprite>sprites\spr_player_fall</sprite>
+    <sprite>sprites\spr_player_idle</sprite>
+    <sprite>sprites\spr_player_jump</sprite>
+    <sprite>sprites\spr_player_run</sprite>
+    <sprite>sprites\spr_swordicon</sprite>
+    <sprite>sprites\sprite22</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -23,6 +35,10 @@
     <background>background\bg_02</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Approach.gml</script>
+    <script>scripts\player_collision.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player_soph</object>
     <object>objects\obj_wall</object>
@@ -34,6 +50,11 @@
     <object>objects\obj_play</object>
     <object>objects\obj_spike</object>
     <object>objects\obj_marker</object>
+    <object>objects\icon_jump</object>
+    <object>objects\icon_sword</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_hitbox</object>
+    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

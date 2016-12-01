@@ -7,54 +7,57 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_player_soph</sprite>
-    <sprite>sprites\spr_restart</sprite>
-    <sprite>sprites\spr_warp</sprite>
-    <sprite>sprites\spr_spikes</sprite>
-    <sprite>sprites\spr_enemy_soph</sprite>
-    <sprite>sprites\spr_play</sprite>
-    <sprite>sprites\spr_spike</sprite>
-    <sprite>sprites\spr_marker</sprite>
-    <sprite>sprites\spr_jumpicon</sprite>
-    <sprite>sprites\spr_nojumpicon</sprite>
-    <sprite>sprites\spr_noswordicon</sprite>
+    <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\Face</sprite>
+    <sprite>sprites\spr_player_idle</sprite>
+    <sprite>sprites\spr_player_run</sprite>
+    <sprite>sprites\spr_player_jump</sprite>
+    <sprite>sprites\spr_player_fall</sprite>
+    <sprite>sprites\spr_player_crouch</sprite>
     <sprite>sprites\spr_player_attack</sprite>
     <sprite>sprites\spr_hitbox</sprite>
-    <sprite>sprites\spr_player_crouch</sprite>
-    <sprite>sprites\spr_player_fall</sprite>
-    <sprite>sprites\spr_player_idle</sprite>
-    <sprite>sprites\spr_player_jump</sprite>
-    <sprite>sprites\spr_player_run</sprite>
+    <sprite>sprites\spr_jumpicon</sprite>
+    <sprite>sprites\spr_nojumpicon</sprite>
     <sprite>sprites\spr_swordicon</sprite>
-    <sprite>sprites\sprite22</sprite>
+    <sprite>sprites\spr_noswordicon</sprite>
+    <sprite>sprites\spr_marker</sprite>
+    <sprite>sprites\spr_restart</sprite>
+    <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_spikes</sprite>
+    <sprite>sprites\spr_warp</sprite>
+    <sprite>sprites\spr_play</sprite>
+    <sprite>sprites\spr_title</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\bg_clouds</background>
     <background>background\bg_01</background>
     <background>background\bg_02</background>
+    <background>background\bg_03</background>
+    <background>background\bg_04</background>
+    <background>background\bg_05</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\Approach.gml</script>
     <script>scripts\player_collision.gml</script>
+    <script>scripts\Approach.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_player_soph</object>
+    <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_start</object>
-    <object>objects\obj_restart</object>
-    <object>objects\obj_warp</object>
-    <object>objects\obj_spikes</object>
-    <object>objects\obj_enemy_soph</object>
-    <object>objects\obj_play</object>
-    <object>objects\obj_spike</object>
-    <object>objects\obj_marker</object>
-    <object>objects\icon_jump</object>
-    <object>objects\icon_sword</object>
+    <object>objects\obj_face</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_hitbox</object>
-    <object>objects\obj_player</object>
+    <object>objects\icon_jump</object>
+    <object>objects\icon_sword</object>
+    <object>objects\obj_marker</object>
+    <object>objects\obj_play</object>
+    <object>objects\obj_restart</object>
+    <object>objects\obj_spike</object>
+    <object>objects\obj_spikes</object>
+    <object>objects\obj_start</object>
+    <object>objects\obj_warp</object>
+    <object>objects\obj_title</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
@@ -70,6 +73,8 @@
     <room>rooms\rm_lvl04_02</room>
     <room>rooms\rm_lvl04_03</room>
     <room>rooms\rm_lvl05_01</room>
+    <room>rooms\rm_skyroom</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
